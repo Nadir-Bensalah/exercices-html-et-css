@@ -1,0 +1,91 @@
+/*Containers*/
+.first {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.second {
+    height: 150;
+    width: 100%;
+    display: flex;
+
+}
+
+
+.souscontainer {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+/*-------------------------------------*/
+
+
+
+/*Blocks*/
+
+
+.block1 {
+    background-color: chartreuse;
+    height: 60px;
+    width: 70%;
+}
+
+.block2 {
+    background-color: brown;
+    height: 60px;
+    width: 30%;
+}
+
+.block3 {
+    background-color :yellow;
+    height: 150px;
+    width: 25%;
+
+}
+
+.block4 {
+    background-color :rgb(159, 153, 216);
+    height: 75px;
+    width: 50%;
+
+}
+
+.block5 {
+    background-color :rgb(196, 58, 16);
+    height: 75px;
+    width: 50%;
+
+}
+
+.block6 {
+    background-color :rgb(21, 226, 209);
+    height: 75px;
+    width: 34%;
+
+}
+.block8 {
+    background-color :rgb(97, 14, 55);
+    height: 75px;
+    width: 33%;
+
+}
+
+.block7 {
+    background-color :rgb(5, 5, 3);
+    height: 75px;
+    width: 33%;
+
+}
+
+
+.block9 {
+    background-color :rgba(56, 53, 55, 0.822);
+    height: 200px;
+    width: 100%;
+}

@@ -1,12 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercice 7</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--1er block de Formulaire bleu -->
+    <P>    
+        <form> 
+            <fieldset class="first"> 
+                <legend class="legend">Votre identité</legend>
+                <ol>
+                    <li>
+                        Nom :   
+                        <input type="text"  placeholder="entrez votre nom" autofocus>
+                        
+                    </li>
+
+                    <li>
+                        Prénom :   
+                        <input type="text" placeholder="entrez votre Prénom">
+                        
+                    </li>
+                    
+                    <li>
+                        Adresse mail :    
+                        <input type="email" placeholder="entrez votre Adresse mail">
+                        
+                    </li>
+                </ol>  
+            </fieldset>
+        </form>
+    </p>
+
+    <!--2 ème  block de Formulaire violet-->
+
+    <p>
+        <form> 
+            <fieldset class="second"> 
+                <legend class="legend2">Adresse de livraison</legend>
+                <ol>
+                    <li>
+                        Adresse de livraison :   
+                        <textarea type="text"  placeholder="entrez votre adresse de livraison" cols="20" rows="4"></textarea>
+                    </li>
+                    <li>
+                        Code postal   
+                        <input type="text"  placeholder="Ex : 80000" >
+                    </li>
+                    <li>
+                        Ville :   
+                        <input type="text"  placeholder="entrez votre ville" >
+                    </li>
+                </ol>
+            </fieldset>
+        </form>
+    </p>
+
+    <!--3 ème block de Formulaire rose -->
+
+    <p>   
+        <form> 
+            <fieldset class="third"> 
+                <legend class="legend3">Informations de réglement</legend>
+                    <ol>
+                        <li>
+                            Type de carte bancaire : 
+                            <br>
+                            <INPUT type= "radio" name="Carte bancaire" value="Visa"> Visa <br> 
+                            <INPUT type= "radio" name="Carte bancaire" value="MasterCard"> MasterCard <br> 
+                        </li>
+                        
+                        <li>
+                            Numéro de carte :   
+                            <input type="text">
+                        
+                        </li>
+                        <li>
+                            Code de sécurité :    
+                            <input type="text">
+                        
+                        </li>
+                        <li>
+                            Nom du titulaire :    
+                            <input type="text">
+                        
+                        </li>
+                
+                    
+                </ol>  
+            </fieldset>
+        </form>
+    </p>
+    
+    <input type="submit" value="j'achète">
+
+
+    <div class="box">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three
+            <br>has
+            <br>extra
+            <br>text
+        </div>
+      </div>
     
 </body>
 </html>

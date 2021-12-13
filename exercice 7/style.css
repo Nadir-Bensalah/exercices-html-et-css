@@ -1,0 +1,44 @@
+.first {
+    background-color: #2673A9;
+    height: 150px;
+    width: 80%;
+}
+
+.second {
+    background-color: #9A13B3;
+    height: 200px;
+    width: 80%;
+}
+
+
+.third {
+    background-color: #DB095B;
+    height: 250px;
+    width: 80%;
+}
+
+
+.legend {
+    background-color: #2673A9;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.legend2 {
+    background-color: #9A13B3;
+    color: #fff;
+    padding: 3px 6px;
+}
+.legend3 {
+    background-color: #DB095B;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
